@@ -1,0 +1,9 @@
+libraires
+
+1)pandas
+2)numpy
+3)seaborn
+4)matplotlip
+5)scikit_learn
+6)joblip
+7)streamlit
