@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 
-model = joblib.load("classfication\heart_disease_prediction\heart_model.pkl")
+model = joblib.load("heart_model.pkl")
 
 
 st.markdown("<h1 style='text-align: center;'>🫀 Heart Disease Prediction</h1>", unsafe_allow_html=True)
@@ -74,4 +74,5 @@ if st.button("Predict"):
     if prediction[0] == 1:
         st.error("⚠️ Patient has possibility of high Heart presentation")
     else:
+
         st.success("✅ The patient is healthy, the probability of the disease is low ")
